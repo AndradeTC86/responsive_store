@@ -12,103 +12,42 @@
 <body>
     <header>
         <div class="container">
-            <h1>EBAC News</h1>
-            <form>
-                <input type="search" placeholder="Pesquisar no site">
-                <button type="submit">Pesquisar</button>
-            </form>
+            <h1>QA Services</h1>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a href="#about">Sobre a empresa</a>                    
+                    </li>                
+                    <li>
+                        <a href="#produtos">Produtos</a>
+                    </li>               
+                </ul>            
+            </nav>            
         </div>
-        <div class="botao-menu">
-            <button type="button">Abrir Menu</button> 
-        </div>
-        <nav class="container">
-            <ul class="menu">
-                <li>Esportes
-                    <ul class="submenu">
-                        <li>
-                            <a href="#">Futebol</a>
-                        </li>
-                        <li>
-                            <a href="#">Vôlei</a>
-                        </li>
-                        <li>
-                            <a href="#">Basquete</a>
-                        </li>
-                    </ul>
-                </li>                
-                <li>Economia
-                    <ul class="submenu">
-                        <li>
-                            <a href="#">Finanças</a>
-                        </li>
-                        <li>
-                            <a href="#">Empresas</a>
-                        </li>
-                        <li>
-                            <a href="#">Política</a>
-                        </li>
-                    </ul>
-                </li>               
-            </ul>
-            <div class="clear"></div>
-        </nav>
     </header>
-    <div class="container conteudo">
+    <div class="conteudo" id="about">
         <main>
-            <section class="destaque">
-                <h2> Em destaque</h2>
-                <article class="noticia">                    
+            <section class="principal">
+                <h2> Sobre nossa empresa</h2>
+                <article class="servico">                    
                     <a href="#">
                         <img src="https://logotyp.us/file/oracle.svg" style="width: 320px; height: 320px;" />
                         <h3>Texto da notícia criado como placeholder</h3>
                     </a>
                 </article>
             </section>
-            <section>
+            <section id="produtos">
                 <h2>Últimas notícias</h2>
-                <div class="noticias">
-                    <article class="noticia">                    
+                <div class="servicos">
+                    <article class="servico">                    
                         <a href="#">
                             <img src="https://logotyp.us/file/oracle.svg" style="width: 320px; height: 320px;" />
                             <h3>Texto da notícia criado como placeholder</h3>
                         </a>
-                    </article>
-                    <article class="noticia">                    
-                        <a href="#">
-                            <img src="https://logotyp.us/file/oracle.svg" style="width: 320px; height: 320px;" />
-                            <h3>Texto da notícia criado como placeholder</h3>
-                        </a>
-                    </article>
-                    <article class="noticia">                    
-                        <a href="#">
-                            <img src="https://logotyp.us/file/oracle.svg" style="width: 320px; height: 320px;" />
-                            <h3>Texto da notícia criado como placeholder</h3>
-                        </a>
-                    </article>
+                    </article>                   
                 </div>                
             </section>
-        </main>
-        <aside>
-            <h2>Notícias recentes</h2>
-            <article class="noticia">                    
-                <a href="#">
-                    <img src="https://logotyp.us/file/oracle.svg" style="width: 320px; height: 320px;" />
-                    <h3>Texto da notícia criado como placeholder</h3>
-                </a>
-            </article>
-            <article class="noticia">                    
-                <a href="#">
-                    <img src="https://logotyp.us/file/oracle.svg" style="width: 320px; height: 320px;" />
-                    <h3>Texto da notícia criado como placeholder</h3>
-                </a>
-            </article>
-            <article class="noticia">                    
-                <a href="#">
-                    <img src="https://logotyp.us/file/oracle.svg" style="width: 320px; height: 320px;" />
-                    <h3>Texto da notícia criado como placeholder</h3>
-                </a>
-            </article>
-        </aside>
+        </main>        
     </div>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>    
     <script src="./main.js"></script>
